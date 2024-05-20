@@ -28,12 +28,19 @@ public class SinhVien {
     }
 
     public void printInfo() {
-        System.out.println("ABC");
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(address);
+        System.out.println(className);
     }
 
     //Các hàm truy xuất thông tin
     public String getName(){return name;}
 
     public String getClassName(){return className;}
+
+    public int getAge(){return  age};
+
+    public String getAddress(){return  address};
 
 }
