@@ -1,10 +1,13 @@
 package com.anhtester.objectclass;
 
+import phamvitruycap.Employee;
+
 import java.util.ArrayList;
 
 public class Company {
     public static void main(String[] args) {
-
+        Employee employee = new Employee();
+        employee.ge
     //Khởi tạo đối tượng class SinhVien
     SinhVien sv1 = new SinhVien("Vân Anh",40,"HN","Auto test");
     sv1.printInfo();
