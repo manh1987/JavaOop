@@ -1,14 +1,14 @@
 package com.anhtester.person;
 
 public class Person {
-    private String name = "Mạnh";
+    private String name1 = "Mạnh";
     private int age = 30;
     private String gender = "Mr";
     private String address = "Ha Noi";
-    private int phone = 0936366649 ;
+    private String phone = "0936366649";
 
     public String getName () {
-        return name;
+        return name1;
     }
     public  int getAge(){
         return age;
@@ -19,7 +19,7 @@ public class Person {
     public String getAddress(){
         return address;
     }
-    public int getPhone(){
+    public String getPhone(){
         return  phone;
     }
 }

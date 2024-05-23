@@ -8,5 +8,7 @@ public class Information {
         employee.getName();
         System.out.println(employee.getName());
         System.out.println(employee.getCompany());
+        student student = new student();
+        student.getCCCD()
     }
 }
