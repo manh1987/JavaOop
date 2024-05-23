@@ -39,8 +39,10 @@ public class SinhVien {
 
     public String getClassName(){return className;}
 
-    public int getAge(){return  age};
+    public int getAge(){
+        return  age;
+    }
 
-    public String getAddress(){return  address};
+    public String getAddress(){return  address;}
 
 }
