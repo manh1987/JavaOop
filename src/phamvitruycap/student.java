@@ -12,4 +12,8 @@ public class student {
     protected String getCCCD(){
         return CCCD;
     }
+    // Default - ko có từ khóa
+    void  printAge(){
+        System.out.println("Age: " + age);
+    }
 }
