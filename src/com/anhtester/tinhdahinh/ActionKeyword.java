@@ -1,8 +1,8 @@
 package com.anhtester.tinhdahinh;
 
-public class ActionKeyword {
+public abstract class ActionKeyword {
 
-    public void clckElement(){
+    public void clickElement() {
 
     }
 
