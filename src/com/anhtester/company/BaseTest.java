@@ -9,7 +9,11 @@ public class BaseTest {
     }
 
     public void closeDriver(){
+        System.out.println("Closed browser"+ Constants.browser);
+    }
 
+    public void closeDriver(String browser){
+        System.out.println("Closed browser"+ Constants.browser);
     }
 
 }
