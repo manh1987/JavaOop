@@ -7,6 +7,22 @@ public class Person {
     private String address = "Ha Noi";
     private String phone = "0936366649";
 
+    public Person(String phone, String name1, int age, String gender, String address) {
+        this.phone = phone;
+        this.name1 = name1;
+        this.age = age;
+        this.gender = gender;
+        this.address = address;
+    }
+
+    public void getInfo(){
+        System.out.println("Name :" + getName());
+        System.out.println("Name :" + getAge());
+        System.out.println("Name :" + getGender());
+        System.out.println("Name :" + getAddress());
+        System.out.println("Name :" + getPhone());
+    }
+
     public String getName () {
         return name1;
     }
